@@ -181,3 +181,47 @@ img {
     max-width: 80px;
     filter: invert(1);
 }
+
+.contact {
+    background: #111;
+}
+
+.contactInfo h3 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.contactInfo {
+    min-width: 40%;
+    color: #fff;
+}
+
+.contactInfoBx {
+    position: relative;
+}
+
+.contactInfoBx .box {
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+
+.contactInfoBx .box .icon {
+    min-width: 40px;
+    padding-top: 4px;
+    color: #fff;
+    justify-content: center;
+    align-items: flex-start;
+    display: flex;
+    font-size: 24px;
+}
+
+.contactInfoBx .box .text {
+    display: flex;
+    font-size: 16px;
+    margin-left: 20px;
+    color: #fff;
+    font-weight: 300;
+    flex-direction: column;
+}
